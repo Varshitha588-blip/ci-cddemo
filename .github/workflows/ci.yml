@@ -27,3 +27,6 @@ jobs:
 
     - name: Build Docker Image
       run: docker build -t demo-app .
+
+    - name: Deploy container
+      run: docker run ml-devops-demo
